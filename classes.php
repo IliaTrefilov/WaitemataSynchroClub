@@ -1,3 +1,9 @@
+<?php
+//Connects php files to use function and start a session
+require_once 'phpcode/configsession.php';
+require_once 'phpcode/VMC/signup_view.php';
+?>
+
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width">
@@ -13,10 +19,10 @@
         <nav>  
             <ul>
                 <!-- <a> with the class "Openpage" is the page which is open. This class makes the text yellow to make it easier for users to see what page is open  -->
-                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="clubinfo.html">Club Info</a></li>
                 <li><a href="compinfo.html">Competition Info</a></li>
-                <li><a class="openpage"href="index.php">Classes</a></li>
+                <li><a class="openpage"href="classes.php">Classes</a></li>
                 <li><a href="gallery.html">Gallery </a></li>
                 <li><a href="sponsors.html">Sponsors</a></li>
                 <li><a href="contacts.html">Contacts</a></li>
@@ -31,17 +37,28 @@
 </header>
 
 <body>
-<!-- Asks user to sign in/up  -->
-    <form action="phpcode/formhandler.php" method="post">
+
+    <h1>Log In</h1>
+    <!-- Log in form  -->
+    <form action="phpcode/login.php" method="post">
         <input type="text" name="email" placeholder="E-mail">
         <input type="password" name="pswd" placeholder="Password">
         <button>Sign In</button> 
     </form>
 
 
+    <h1>Sign Up</h1>
+    <!-- Sign up form -->
+    <form action="phpcode/signup.php" method="post">
+        <?php
+        signup_inputs();
+        ?>
+
+        <button>Sign In</button> 
+    </form>
 
     <?php
-        require_once 'connect.php'
-        
+    check_signup_errors();
     ?>
+
 </body>
