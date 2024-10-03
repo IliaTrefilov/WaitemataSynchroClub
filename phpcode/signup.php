@@ -6,8 +6,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $lname = $_POST["lastname"];
     $email = $_POST["email"];
     $phonebad = $_POST["phone"];
-    $phone = intval($phonebad);
-    $pswd = $_POST["pswd"];
+    $phone = strval($phonebad);
+    $pswdbad = $_POST["pswd"];
+    $pswd = strval($pswdbad);
         
     //Checks if email or password that is being entered a SQL query
     try {
@@ -60,6 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: ../classes.php?signup=success");
         $pdo = null;
         $stmt = null;
+        $_SESSION["signup_data"] = null;
         die();
 
     } catch (PDOException $e) {

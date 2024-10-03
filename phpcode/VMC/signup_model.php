@@ -18,7 +18,7 @@ function get_email(object $pdo, string $email)
 }
 
 //Gets the phone number from the database
-function get_phone(object $pdo, int $phone)
+function get_phone(object $pdo, string $phone)
 {
     //Makes a prepared statement that is secure from SQL injections
     $query = "SELECT phone FROM users WHERE phone = :phone;";
@@ -30,7 +30,7 @@ function get_phone(object $pdo, int $phone)
     return $result;
 }
 
-function set_user(object $pdo, string $fname, string $lname, string $email, int $phone, string $pswd)
+function set_user(object $pdo, string $fname, string $lname, string $email, string $phone, string $pswd)
 {
     //Makes a prepared statement that is secure from SQL injections
     $query = "INSERT INTO users (Firstname, Lastname, Phone, Email, pswd) VALUES (:Firstname, :Lastname, :phone, :email, :pswd) ;";

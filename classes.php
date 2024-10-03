@@ -54,7 +54,7 @@ require_once 'phpcode/VMC/signup_view.php';
         signup_inputs();
         ?>
 
-        <button>Sign In</button> 
+        <button>Sign Up</button> 
     </form>
 
     <?php

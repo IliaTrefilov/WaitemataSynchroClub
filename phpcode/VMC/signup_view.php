@@ -21,20 +21,20 @@ function signup_inputs ()
 
     //Checks if EMAIL was entered and if yes AND it doesn't have any errors from signup_controller.php that were asigned in signup.php then it keeps that value
     if (isset($_SESSION["signup_data"]['email']) && !isset($_SESSION['errors_signup']['invalid_email']) && !isset($_SESSION['errors_signup']['email_used'])){
-        echo '<input type="text" name="email" placeholder="Email@gmail.com" maxlength="320" value="' . $_SESSION["signup_data"]["email"] . '">';
+        echo '<input type="text" name="email" placeholder="Email@gmail.com" maxlength="320" autocomplete="off" value="' . $_SESSION["signup_data"]["email"] . '">';
     } else {
-        echo '<input type="text" name="email" placeholder="Email@gmail.com  " maxlength="320">';
+        echo '<input type="text" name="email" placeholder="Email@gmail.com  " maxlength="320" autocomplete="off">';
     }
 
     //Checks if PHONE was entered and if yes AND it doesn't have any errors from signup_controller.php that were asigned in signup.php then it keeps that value
     if (isset($_SESSION["signup_data"]['phone']) && !isset($_SESSION['errors_signup']['phone_used'])){
-        echo '<input type="number" name="phone" placeholder="8888888888" pattern="[0-9]{10}" maxlength="10" required value="' . $_SESSION["signup_data"]["phone"] . '"> <label>Format: 0284210088 (No Spaces or Hyphens)</label>';
+        echo '<input type="number" name="phone" placeholder="8888888888" pattern="[0-9]{10}" maxlength="10" value="' . $_SESSION["signup_data"]["phone"] . '" required> <label>Format: 0284210088 (No Spaces or Hyphens)</label>';
     } else {
         echo '<input type="number" name="phone" placeholder="8888888888" pattern="[0-9]{10}" maxlength="10" required> <label>Format: 0284210088 (No Spaces or Hyphens)</label>';
     }
 
     //Asks for you to put password in
-    echo '<input type="text" name="pswd" placeholder="Password">';
+    echo '<input type="password" name="pswd" placeholder="Password" autocomplete="off">';
 
 }   
 

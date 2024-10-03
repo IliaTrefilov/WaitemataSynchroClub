@@ -4,7 +4,7 @@
 declare(strict_types=1);
 
 //Checks if any input fields were left empty
-function is_input_empty(string $fname, string $lname, string $email, int $phone, string $pswd) 
+function is_input_empty(string $fname, string $lname, string $email, string $phone, string $pswd) 
 {
     if (empty($fname) || empty($lname) || empty($email) || empty($phone) || empty($pswd)) {
         return true;
@@ -34,7 +34,7 @@ function is_email_registered(object $pdo, string $email)
 }
 
 //Checks if phone number is taken
-function is_phone_taken(object $pdo, int $phone)
+function is_phone_taken(object $pdo, string $phone)
 {
     if (get_phone($pdo, $phone)) {
         return true;
@@ -44,7 +44,7 @@ function is_phone_taken(object $pdo, int $phone)
 }
 
 //Uses data from signup to make a user. Recalls a function from signup model 
-function create_user(object $pdo, string $fname, string $lname, string $email, int $phone, string $pswd) 
+function create_user(object $pdo, string $fname, string $lname, string $email, string $phone, string $pswd) 
 {
     set_user($pdo, $fname, $lname, $email, $phone, $pswd);
 }
