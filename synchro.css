@@ -1,0 +1,479 @@
+/* Makes everything centered when zooming out */
+.content{
+        max-width:1920px;
+        margin:auto;
+}
+/* Gets rid of sideways scroll bar and margins */
+body{
+    margin:0px;
+    overflow-x:hidden;
+    background-color: #cff3f541;
+}
+
+/*#region Button */
+    h2{
+        width:275px;
+        text-align: center;
+        color:#19a7b1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+        font-size:30px;
+        background-color: #dbfcfd;
+        padding-top:17px;
+        padding-bottom:17px;
+        position:relative;
+        border-radius:55px;
+        border:5px solid #19a7b1;
+        cursor:pointer;
+
+    }
+    h2:hover{
+        background-color: #19a7b1;
+        color:#b2fcff;
+        border:5px solid #b2fcff;
+        transition-duration: 0.4s;
+    }
+/*#endregion Button*/
+
+/* #region Nav Bar */
+    header{
+        background:#0a0a0a;
+        width:1920px;
+        max-height:120px;
+    }
+
+    .logo{
+        position:absolute;
+        left:3.2vw;
+        top:-0.5vw;
+        width:7.81vw;
+    }
+
+    .openpage{
+        color:#fafe00c0;
+    }
+    ul a{
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:#19a7b1;
+        position:relative;
+        padding-left:6.354vw;
+        font-size:1.1vw;
+        left:5.52vw;
+        top:0.68vw;
+    }   
+
+    nav{
+        padding-top:2.73vH;
+        padding-bottom:2.73VH;
+    }
+
+    nav li, nav img{
+        display:inline;
+    }
+
+    header .imglinks img{
+        position:absolute;
+        width:2.6vw;
+        left:81.25vw;
+        top:-37px;
+    }
+
+    header img:hover{
+        transform: scale(1.05);
+        transition-duration: 0.2s;
+    }
+    header a:hover{
+        color:white;
+    }
+/* #endregion Nav Bar*/
+
+/* #region Awards*/
+    .lander{
+        width:1899px
+    }
+
+    .parallelogram{
+        position:absolute;
+        top:1080px;
+        width: 1891px;
+        height:700px;
+        transform: skewY(-3deg);
+        background: #e9feff;
+        border:4px solid #85e4e9;
+        z-index:-1;
+    }
+    .inverse{
+        position:absolute;
+        top: 1080px;
+        width: 1899px;
+        height:700px;
+        transform: skewY(3deg);
+        background: #85e4e9;
+        z-index:-1;
+    }
+    .awards{
+        position:relative;
+        top:20px;
+        display:grid;
+        grid-template-columns: 470px 470px 470px 470px;
+        color:black;
+        text-align: center;
+    }
+    .awards div{
+        margin:100px;
+        text-align:center;
+    }
+    .awards img{
+        width:200px;
+    }
+
+    .awards p{
+        color:#06666d;
+        position:relative;
+        left:25px;
+        width:225px;
+        text-align:justify;    
+        text-align-last:center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .awards div{
+        position:relative;
+    }
+/* #endregion Awards */
+
+/* #region Middle */
+    .middle div{
+        display:inline-block;
+    }
+    .middletext{
+        color:#19a7b1;
+        text-shadow: 1px 1px #19a7b1;
+        position:relative;
+        left:282px;
+        top:225px;
+        width:525px;
+        text-align:justify;    
+        text-align-last:center;
+        font-size:20px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .middleimg{
+        width:700px;
+        height:900px;
+        background:url(image/awards);
+        background-size:cover;
+        position:absolute;
+        top:940px;
+        transform:translate(280px);
+    }
+
+/* #endregion Middle */
+
+/* #region Footer */
+    footer{
+        position:relative;
+        width:1920px;
+        background:#000000;
+        height:200px;
+        border-top:#000000 5px solid;
+        padding-bottom:2px;
+    }
+    @media screen and (min-width:1920px){
+        footer{
+            width:100%;
+        }    
+    }
+    
+    .footermain div{
+        display:inline-block;
+    }
+    .footermain h1{
+        position:relative;
+        color:#19a7b1;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    }
+    .footermain p{
+        position:relative;
+        top:-5px;
+        left:70px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#19a7b1;
+        font-size:18px;
+    }
+    .footerdiv h1{
+        left:30px;
+        
+    }
+    .footermain img{
+        position:relative;
+        top:-10px;
+        height:80px;
+        margin:10px;
+    }
+    .footerdiv2{
+        position:relative;
+        left:1200px;
+    }
+    .footerdiv2 h1{
+        left:30px;
+    }
+    footer img:hover{
+        transform: scale(1.05);
+        transition-duration: 0.2s;
+    }
+/* #endregion Footer*/
+
+/* #region ClubInfo Page */
+    .history{ 
+        width:45%;
+        display:flex;
+    }
+    .history img{
+        position:relative;
+        padding:45px;
+        width:950px;
+        height:950px;
+    }
+    .history p{
+        width:650px;
+        height:400px; 
+        color:#19a7b1;
+        text-shadow: 1px 1px #19a7b1;
+        position:relative;
+        text-align:justify;    
+        font-size:22px;
+        font-family:Arial, Helvetica, sans-serif;
+    }    
+    .coachbox{
+        position:absolute;
+    }
+    .coaches{
+        position:relative;
+        left:400px;
+        display:flex;
+        gap:300px;
+    }
+    .coaches p{ 
+        text-align:center;
+        transform:translatex(-43px);
+        width:500px;
+        height:400px; 
+        color:#19a7b1;
+        text-shadow: 1px 1px #19a7b1;
+        position:relative;
+        text-align:justify; 
+        text-align-last: center;   
+        font-size:22px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+
+        
+/* #endregion ClubInfo Page */
+
+/* #region Gallery */
+.gallery h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#19a7b1;
+    font-size:42px;
+}
+
+/* #endregion Gallery */
+
+/* #region Sponsors Page */
+    .photos{
+        position:relative;
+        left:-100px;
+        top: 200px;
+        display:grid;
+        grid-template-columns: 100px 100px 100px;
+        gap:100px;
+        color:black;
+    }
+    .photos img{
+        width:310px;
+        position:relative;
+    }
+
+    .sponsors h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:#19a7b1;
+        font-size:42px;
+    }
+    .sponsors p{
+        position:relative;
+        top:80px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:22px;
+        color:#06666d;
+        text-align:center;
+    }
+    .underline{
+        height:5px;
+        width:600px;
+        background-color:#19a7b1;
+        top:200px;
+    }
+
+    .credits{
+        position:relative;
+        top:720px;
+    }
+    .credits div{
+        position:absolute;
+        left:50%;
+        top:1000px;
+    }
+    .space{
+        /* background-color: red; */
+        height:700px;
+    }
+
+    .line{
+        position:relative;
+        width:300px;
+        top:-20px;  
+        height:5px;
+        background-color: #19a7b1;
+
+    }
+    .photographer{
+        position:relative;
+        left:-500px;
+    }
+    .misc{
+        position:relative;
+        left:500px;
+    }
+
+    .sponsors .bruh div h1{
+        text-align:center;
+    }
+    .sponsors .bruh div p{
+        font-size: 24px;
+        top:-20px;
+        text-align:justify;    
+        text-align-last:center;
+    }
+
+/* #endregion Sponsors Page */
+
+/* #region Contacts Page */
+    .brder{
+        background-color:#19a7b1;
+        width:975px;
+        height:700px;
+        position:relative;
+        top:30px;
+        left:-412.5px;
+    }
+    .googlemaps{
+        position:relative;
+        top:45px;
+        left:-887.5px;
+    }
+    .googlemaps iframe {
+        height: 670px;
+        width: 950px;
+        left: 0;
+        top: 0;
+        position: absolute;
+        border:0;
+    }
+
+    .info{
+        position:relative;
+        top:100px;
+        left:1070px;
+    }
+    .info h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:#19a7b1;
+        font-size:32px;
+    }
+    .info p{
+        position:relative;
+        left:30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:22px;
+        color:#06666d;
+    }
+    .info img{
+        width:100px;
+        margin-right:20px;
+    }
+
+    .info img:hover{
+            transform: scale(1.05);
+            transition-duration: 0.2s;
+    }
+/* #endregion Contacts Page */
+
+
+/* Bruh class is too have something be position:aboslute while being able to zoom like its relative */
+.bruh{
+    position:absolute;
+    float:left;
+    left:50%;
+    transform:translateX(-50%)
+}
+
+
+@media screen and (min-width:1920px){
+    .content{
+        max-width:1920px;
+        margin:auto;
+    }
+    body{
+        margin:0px;
+    }
+    
+    header{
+        background:#0a0a0a;
+        width:100%;
+    }
+    
+    .logo{
+        position:relative;
+        left:45px;
+        top:-160px;
+        width:150px;
+    }
+    
+    .openpage{
+        color:#fafe00c0;
+    }
+    ul a{
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:#19a7b1;
+        position:relative;
+        left:106px;
+        padding-left:115px;
+        font-size:22px;
+        top:0px;
+    }
+    
+    nav{
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+
+    header .imglinks img{
+        position:absolute;
+        width:50px;
+        left:1530px;
+        top:-37px;
+    }
+    
+    header img:hover, a:hover{
+        transform: scale(1.05);
+        transition-duration: 0.2s;
+    }
+}
+
+@media screen and (max-width:1900px){
+    body{
+        overflow-x:visible;
+    }
+}
