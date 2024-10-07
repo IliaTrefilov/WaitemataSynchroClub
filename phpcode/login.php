@@ -47,6 +47,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         //Adds a thing to the global variable to be used in configsession.php. Also gives $_SESSION data of the first name to be displayed later. The first name has been sanitized by htmlspecialchars to make sure nothing malicious can happen
         $_SESSION["user_id"] = $result["UserID"];
         $_SESSION["firstname"] = htmlspecialchars($result["Firstname"]);
+        $userid = $_SESSION["user_id"];
+
+        $resultdays = get_days($pdo, $userid);
+        $_SESSION['classesid'] = $resultdays['ID'];
+        $_SESSION['mondayfirst'] = $resultdays['MondayFirst'];
+        $_SESSION['mondaysecond'] = $resultdays['MondaySecond'];
+        $_SESSION['tuesdayfirst'] = $resultdays['TuesdayFirst'];
+        $_SESSION['tuesdaysecond'] = $resultdays['TuesdaySecond'];
+        $_SESSION['thursdayfirst'] = $resultdays['ThursdayFirst'];
+        $_SESSION['thursdaysecond'] = $resultdays['ThursdaySecond'];
+        $_SESSION['saturdayfirst'] = $resultdays['SaturdayFirst'];
+        $_SESSION['saturdaysecond'] = $resultdays['SaturdaySecond'];        
+
+
 
         $_SESSION["last_regeneration"]= time();
 

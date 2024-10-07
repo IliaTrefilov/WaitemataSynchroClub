@@ -1,0 +1,123 @@
+h1 {
+    position:relative;
+    text-align:center;
+    color:#19a7b1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+p {
+    color:#06666d;
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-size:20px;
+    text-align:justify;
+    text-align-last:center;
+}
+
+h3 {
+    position:relative;
+    color: #06666d;
+    margin-bottom:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+form {
+    text-align:center;
+}
+
+input {
+    text-align:center;
+    font-size:16px;
+    color: #06666d;
+    border: #19a7b1 solid 2px;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+label {
+    position:relative;
+    top:10px;
+    color: #06666d;
+    font-family: 'Arial, Helvetica, sans-serif';
+
+}
+
+button{
+    width:100px;
+    text-align: center;
+    color:#19a7b1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size:15px;
+    background-color: #dbfcfd;
+    padding-top:7px;
+    padding-bottom:7px;
+    position:relative;
+    border-radius:5px;
+    border:2px solid #19a7b1;
+    cursor:pointer;
+
+}
+button:hover{
+    background-color: #19a7b1;
+    color:#b2fcff;
+    border:2px solid #b2fcff;
+    transition-duration: 0.4s;
+}
+
+.error {
+    text-align:center;
+    font-size:20px;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.success {
+    text-align:center;
+    font-size:20px;
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    position:relative;
+    top: 20px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:20px
+}
+.box {
+    height:400px;
+    border:5px solid #19a7b1;
+    border-radius:25px;
+    padding:20px;   
+}
+#box1 {
+    width:300px;
+    padding:20px 50px 20px 50px;
+    background: #baeef0;
+
+}
+#box2 {
+    width:400px;
+    background: #e9feff;
+
+}
+#box3 {
+    width:420px;
+    text-align:center;
+    background: #e9feff;
+}
+#box3 button {
+    top:100px;
+    right:250px;
+    width:175px;
+    font-size:22px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:10px;
+    border:3px solid #19a7b1;
+}
+#box3 button:hover{
+    border:3px solid #b2fcff;
+}
