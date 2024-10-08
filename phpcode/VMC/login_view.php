@@ -86,7 +86,7 @@ function join_sessions()
     }
 
 
-function session_chance()
+function session_change()
 {
     if (isset($_GET["sessionchange"]) && $_GET["sessionchange"] === "success") {
         echo '<p class="success">Session Change Succesful!</p>';

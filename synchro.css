@@ -48,7 +48,7 @@ body{
         width:7.81vw;
     }
 
-    .openpage{
+    .active{
         color:#fafe00c0;
     }
     ul a{
@@ -225,14 +225,18 @@ body{
 
 /* #region ClubInfo Page */
     .history{ 
+        position:relative;
+        top:50px;
+        left:150px;
         width:45%;
         display:flex;
     }
     .history img{
         position:relative;
         padding:45px;
-        width:950px;
-        height:950px;
+        width:700px;
+        height:700px;
+        border-radius:25px;
     }
     .history p{
         width:650px;
@@ -240,15 +244,58 @@ body{
         color:#19a7b1;
         text-shadow: 1px 1px #19a7b1;
         position:relative;
-        text-align:justify;    
+        text-align:justify;  
         font-size:22px;
         font-family:Arial, Helvetica, sans-serif;
     }    
+    #eventsimg{
+        width:750px;
+        height:500px;
+    }
+
+    #plz {
+        position:relative;
+        left:100px;
+        top:120px;
+    }
+    #resultsimg{
+        position:relative;
+        width:800px;
+        height:500px;
+        left:1000px;
+    }
+
+    .history2{ 
+        position:relative;
+        top:50px;
+        left:150px;
+        width:45%;
+        display:flex;
+    }
+    .results a{
+        color:#19a7b1;
+        text-shadow: 1px 1px #19a7b1;
+        position:relative;
+        text-align:justify;  
+        font-size:22px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .rules a{
+        text-decoration:underline solid #19a7b1;
+        color:#19a7b1;
+        text-shadow: 1px 1px #19a7b1;
+        position:relative;
+        text-align:justify;  
+        font-size:22px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
     .coachbox{
         position:absolute;
     }
     .coaches{
         position:relative;
+        top:80px;
         left:400px;
         display:flex;
         gap:300px;
@@ -257,7 +304,7 @@ body{
         text-align:center;
         transform:translatex(-43px);
         width:500px;
-        height:400px; 
+        height:350px; 
         color:#19a7b1;
         text-shadow: 1px 1px #19a7b1;
         position:relative;
@@ -265,11 +312,15 @@ body{
         text-align-last: center;   
         font-size:22px;
         font-family:Arial, Helvetica, sans-serif;
-    }
-
-
-        
+    }   
 /* #endregion ClubInfo Page */
+
+.comp h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#06666d;
+    font-size:42px;
+}
+
 
 /* #region Gallery */
 .gallery h1{
@@ -440,7 +491,7 @@ body{
         width:150px;
     }
     
-    .openpage{
+    .active{
         color:#fafe00c0;
     }
     ul a{

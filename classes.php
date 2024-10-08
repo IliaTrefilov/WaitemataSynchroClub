@@ -13,31 +13,9 @@ require_once 'phpcode/VMC/signup_view.php';
     <!-- Title is what the name of the tab is called when you have it open. I have made each page's title start with the pages name -->
     <title>CLASSES | WAITEMATA SYNCHRO CLUB</title>
 </head>
-<!--Navigation Bar + Link to stylesheet-->
-<header>
-<header>
-    <!-- Where ever I have something set as class="content" I am making it centered when you zoom out -->
-    <div class="content">
-        <!-- Navigation Bar -->
-        <nav>  
-            <ul>
-                <!-- <a> with the class "Openpage" is the page which is open. This class makes the text yellow to make it easier for users to see what page is open  -->
-                <li><a href="index.php">Home</a></li>
-                <li><a href="clubinfo.html">Club Info</a></li>
-                <li><a href="compinfo.html">Competition Info</a></li>
-                <li><a class="openpage" href="classes.php">Classes</a></li>
-                <li><a href="gallery.html">Gallery </a></li>
-                <li><a href="sponsors.html">Sponsors</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
-                    <div class="imglinks">
-                        <a class="facebook" href="www.google.com"><img src="images/facebook.png"></a>
-                        <a href="www.learncoach.com"><img src="images/instagram.png"></a>
-                    </div>
-            </ul>
-        </nav>
-        <a href="home.html"><img class="logo" src="images/logo.png"></a>
-    </div>
-</header>  
+
+<header> <!-- Links a phpfile that includes the navigation bar -->
+    <?php require_once 'phpcode/navbar.php'; ?>
 </header>
 
 <body>
@@ -62,17 +40,17 @@ require_once 'phpcode/VMC/signup_view.php';
                 <button>Sign In</button> 
             </form>
 
+            <?php check_login_errors(); ?>
+
 
     <!-- Sign up form. Values are filled using signup_view.php-->
             <form action="phpcode/signup.php" method="post">
             <h1>Sign Up</h1>
 
             <?php
-            check_signup_errors();
+            check_signup_errors(); 
+            signup_inputs();
             ?>
-                <?php
-                signup_inputs();
-                ?>
 
             <h6></h6>
             <button>Sign Up</button> 
@@ -96,7 +74,8 @@ require_once 'phpcode/VMC/signup_view.php';
                 <?php join_sessions();
                 session_change();
                 ?>
-
+            
+            
                 
                 
             </div>
@@ -107,3 +86,28 @@ require_once 'phpcode/VMC/signup_view.php';
 
     </div>
 </body>
+
+<!-- The Footer -->
+<footer style="top:150px;">
+    <div class="content">
+        <!-- Footermain is to be able to display the divs inline-block -->
+        <div class="footermain">
+            <!-- Left Side -->
+            <div class="footerdiv">
+                <h1>Contact Us</h1>
+                <p>
+                    Email: <a style="color:yellow;" href="mailto:20303@lbc.school.nz">20303@lbc.school.nz</a>
+                    <br>Phone: +64 28 421 0088
+                    <br>Address: 120 Deep Creek Road, Torbay
+                </p>     
+                <p style=" left:10px; top:10px;">&copy; 2023, All images are free for use </p>
+            </div>
+            <!-- Right Side -->
+            <div  class="footerdiv2">
+                <h1>Follow Us</h1>
+                    <a href="https://learncoach.com/?src=9blke5ApNmlb&gclid=EAIaIQobChMI9s3s6ajdgAMVbByDAx3VJwa1EAAYASAAEgJg3fD_BwE"> <img src="images/instagram.png"></a>
+                    <a href="https://www.khanacademy.org/"> <img src="images/facebook.png"></a>
+            </div>
+        </div>
+    </div>
+</footer>

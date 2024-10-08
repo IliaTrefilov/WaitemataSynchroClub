@@ -5,29 +5,9 @@
     <!-- Title is what the name of the tab is called when you have it open. I have made each page's title start with the pages name -->
     <title>HOME | WAITEMATA SYNCHRO CLUB</title>
 </head>
-<!--Navigation Bar + Link to stylesheet-->
-<header>
-    <!-- Where ever I have something set as class="content" I am making it centered when you zoom out -->
-    <div class="content">
-        <!-- Navigation Bar -->
-        <nav>  
-            <ul>
-                <!-- <a> with the class "Openpage" is the page which is open. This class has yellow text to make it easier for users to see what page is open  -->
-                <li><a href="home.html">Home</a></li>
-                <li><a href="clubinfo.html">Club Info</a></li>
-                <li><a href="compinfo.html">Competition Info</a></li>
-                <li><a href="classes.php">Classes</a></li>
-                <li><a class="openpage" href="gallery.html">Gallery </a></li>
-                <li><a href="sponsors.html">Sponsors</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
-                    <div class="imglinks">
-                        <a class="facebook" href="www.google.com"><img src="images/facebook.png"></a>
-                        <a href="www.learncoach.com"><img src="images/instagram.png"></a>
-                    </div>
-            </ul>
-        </nav>
-        <a href="home.html"><img class="logo" src="images/logo.png"></a>
-    </div>
+
+<header> <!-- Links a phpfile that includes the navigation bar -->
+    <?php require_once 'phpcode/navbar.php'; ?>
 </header>
 
 <body>
