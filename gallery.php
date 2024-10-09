@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="synchro.css">
+    <!-- <link rel="stylesheet" href="synchro.css"> -->
+    <link rel="stylesheet" href="gallery.css">
     <!-- Title is what the name of the tab is called when you have it open. I have made each page's title start with the pages name -->
-    <title>HOME | WAITEMATA SYNCHRO CLUB</title>
+    <title>GALLERY | WAITEMATA SYNCHRO CLUB</title>
 </head>
 
 <header> <!-- Links a phpfile that includes the navigation bar -->
@@ -11,13 +12,35 @@
 </header>
 
 <body>
+    <!-- <div class="content"> -->
     <div class="content gallery">
-        <h1 class="bruh">Gallery Location One</h1>
+        <h1 class="bruh">2023 Artistic Swimming Australia Open</h1>
         <div class="underline bruh"></div>
-        <div class="Galledup">
-
-        </div>
+            <div class="vertrow">
+                <img src="images/piggyback.png">
+                <img src="images/piggyback.png">
+                <img src="images/piggyback.png">
+            </div>
+            <div class="vertrow">
+                <img src="images/standingauopen.png">
+                <img src="images/standingauopen.png">
+            </div>
     </div>
+
+    <div style="position:relative; top:200px;"class="content gallery">
+        <h1 class="bruh">2023 Artistic Swimming Australia Open</h1>
+        <div class="underline2 bruh"></div>
+            <div class="vertrow">
+                <img src="images/piggyback.png">
+                <img src="images/piggyback.png">
+                <img src="images/piggyback.png">
+            </div>
+            <div class="vertrow">
+                <img src="images/standingauopen.png">
+                <img src="images/standingauopen.png">
+            </div>
+    </div>
+
 </body>
 
 <!-- The Footer -->

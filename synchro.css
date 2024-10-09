@@ -329,6 +329,15 @@ body{
     font-size:42px;
 }
 
+.vertrow1 {
+    position:relative;
+    top:100px;
+}
+.vertrow1 img{
+    position:relative;
+    top:500px;
+}
+
 /* #endregion Gallery */
 
 /* #region Sponsors Page */

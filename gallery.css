@@ -1,0 +1,213 @@
+/* #region Footer */
+footer{
+    position:relative;
+    width:1920px;
+    background:#000000;
+    height:200px;
+    border-top:#000000 5px solid;
+    padding-bottom:2px;
+}
+@media screen and (min-width:1920px){
+    footer{
+        width:100%;
+    }    
+}
+
+.footermain div{
+    display:inline-block;
+}
+.footermain h1{
+    position:relative;
+    color:#19a7b1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+}
+.footermain p{
+    position:relative;
+    top:-5px;
+    left:70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#19a7b1;
+    font-size:18px;
+}
+.footerdiv h1{
+    left:30px;
+    
+}
+.footermain img{
+    position:relative;
+    top:-10px;
+    height:80px;
+    margin:10px;
+}
+.footerdiv2{
+    position:relative;
+    left:1200px;
+}
+.footerdiv2 h1{
+    left:30px;
+}
+footer img:hover{
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+}
+/* #endregion Footer*/
+
+/* Makes everything centered when zooming out */
+.content{
+    max-width:1920px;
+    margin:auto;
+}
+/* Gets rid of sideways scroll bar and margins */
+body{
+margin:0px;
+overflow-x:hidden;
+background-color: #cff3f541;
+}
+
+/* #region Nav Bar */
+    header{
+        background:#0a0a0a;
+        width:1920px;
+        max-height:120px;
+    }
+
+    .logo{
+        position:absolute;
+        left:3.2vw;
+        top:-0.5vw;
+        width:7.81vw;
+    }
+
+    .active{
+        color:#fafe00c0;
+    }
+    ul a{
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:#19a7b1;
+        position:relative;
+        padding-left:6.354vw;
+        font-size:1.1vw;
+        left:5.52vw;
+        top:0.68vw;
+    }   
+
+    nav{
+        padding-top:2.73vH;
+        padding-bottom:2.73VH;
+    }
+
+    nav li, nav img{
+        display:inline;
+    }
+
+    header .imglinks img{
+        position:absolute;
+        width:2.6vw;
+        left:81.25vw;
+        top:-37px;
+    }
+
+    header img:hover{
+        transform: scale(1.05);
+        transition-duration: 0.2s;
+    }
+    header a:hover{
+        color:white;
+    }
+    @media screen and (min-width:1920px){
+        .content{
+            max-width:1920px;
+            margin:auto;
+        }
+        body{
+            margin:0px;
+        }
+        
+        header{
+            background:#0a0a0a;
+            width:100%;
+        }
+        
+        .logo{
+            position:relative;
+            left:45px;
+            top:-160px;
+            width:150px;
+        }
+        
+        .active{
+            color:#fafe00c0;
+        }
+        ul a{
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:#19a7b1;
+            position:relative;
+            left:106px;
+            padding-left:115px;
+            font-size:22px;
+            top:0px;
+        }
+        
+        nav{
+            padding-top:30px;
+            padding-bottom:30px;
+        }
+    
+        header .imglinks img{
+            position:absolute;
+            width:50px;
+            left:1530px;
+            top:-37px;
+        }
+        
+        header img:hover, a:hover{
+            transform: scale(1.05);
+            transition-duration: 0.2s;
+        }
+    }
+    
+    @media screen and (max-width:1900px){
+        body{
+            overflow-x:visible;
+        }
+    }
+    
+/* #endregion Nav Bar*/
+
+.underline{
+    height:5px;
+    width:600px;
+    background-color:#19a7b1;
+    top:200px;
+}
+
+.underline2{
+    height:5px;
+    width:600px;
+    background-color:#19a7b1;
+    top:0px;
+}
+
+
+.gallery h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#19a7b1;
+    font-size:42px;
+}
+
+.vertrow{
+    position:relative;
+    top:100px;
+    left:100px;
+}
+
+
+
+.bruh{
+    position:absolute;
+    float:left;
+    left:50%;
+    transform:translateX(-50%)
+}
