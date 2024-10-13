@@ -6,25 +6,25 @@ require_once 'phpcode/VMC/signup_view.php';
 ?>
 
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.png" type="image/logo.png">
     <link rel="stylesheet" href="synchro.css">
     <link rel="stylesheet" href="login.css">
     <!-- Title is what the name of the tab is called when you have it open. I have made each page's title start with the pages name -->
-    <title>CLASSES | WAITEMATA SYNCHRO CLUB</title>
+    <title>Classes | WAITEMATA SYNCHRO CLUB</title>
 </head>
 
-<header> <!-- Links a phpfile that includes the navigation bar -->
-    <?php require_once 'phpcode/navbar.php'; ?>
-</header>
 
 <body>
+
+    <!-- Links a phpfile that includes the navigation bar -->
+    <?php require_once 'phpcode/navbar.php'; ?>
+
     <div class="content">
-        <h1>
-        <?php
-        output_firstname();
-        ?>
-        </h1>
+        <?php output_firstname(); ?>
 
 <!-- Php checks if $_SESSION doesn't have user id set. It will be set if logged in. Since we are not logged in, it will display Log In and Sign Up forms.  -->
     <!-- Log in form  -->
@@ -85,29 +85,8 @@ require_once 'phpcode/VMC/signup_view.php';
         
 
     </div>
-</body>
 
-<!-- The Footer -->
-<footer style="top:150px;">
-    <div class="content">
-        <!-- Footermain is to be able to display the divs inline-block -->
-        <div class="footermain">
-            <!-- Left Side -->
-            <div class="footerdiv">
-                <h1>Contact Us</h1>
-                <p>
-                    Email: <a style="color:yellow;" href="mailto:20303@lbc.school.nz">20303@lbc.school.nz</a>
-                    <br>Phone: +64 28 421 0088
-                    <br>Address: 120 Deep Creek Road, Torbay
-                </p>     
-                <p style=" left:10px; top:10px;">&copy; 2023, All images are free for use </p>
-            </div>
-            <!-- Right Side -->
-            <div  class="footerdiv2">
-                <h1>Follow Us</h1>
-                    <a href="https://learncoach.com/?src=9blke5ApNmlb&gclid=EAIaIQobChMI9s3s6ajdgAMVbByDAx3VJwa1EAAYASAAEgJg3fD_BwE"> <img src="images/instagram.png"></a>
-                    <a href="https://www.khanacademy.org/"> <img src="images/facebook.png"></a>
-            </div>
-        </div>
-    </div>
-</footer>
+    <?php require_once 'phpcode/footer.php';?>
+
+</body>
+</html>

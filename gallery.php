@@ -1,69 +1,52 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width">
-    <!-- <link rel="stylesheet" href="synchro.css"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.png" type="image/logo.png">
     <link rel="stylesheet" href="gallery.css">
     <!-- Title is what the name of the tab is called when you have it open. I have made each page's title start with the pages name -->
-    <title>GALLERY | WAITEMATA SYNCHRO CLUB</title>
+    <title>Gallery | WAITEMATA SYNCHRO CLUB</title>
 </head>
 
-<header> <!-- Links a phpfile that includes the navigation bar -->
-    <?php require_once 'phpcode/navbar.php'; ?>
-</header>
 
 <body>
+
+    <!-- Links a phpfile that includes the navigation bar -->
+    <?php require_once 'phpcode/navbar.php'; ?>
+
     <!-- <div class="content"> -->
     <div class="content gallery">
         <h1 class="bruh">2023 Artistic Swimming Australia Open</h1>
         <div class="underline bruh"></div>
             <div class="vertrow">
-                <img src="images/piggyback.png">
-                <img src="images/piggyback.png">
-                <img src="images/piggyback.png">
+                <img src="images/piggyback.png" alt="Two club members doing a piggybank">
+                <img src="images/piggyback.png" alt="Two club members doing a piggybank">
+                <img src="images/piggyback.png" alt="Two club members doing a piggybank">
             </div>
             <div class="vertrow">
-                <img src="images/standingauopen.png">
-                <img src="images/standingauopen.png">
+                <img src="images/standingauopen.png" alt="Club members at Australia Open">
+                <img src="images/standingauopen.png" alt="Club members at Australia Open">
             </div>
     </div>
 
-    <div style="position:relative; top:200px;"class="content gallery">
+    <div style="position:relative; top:200px;" class="content gallery">
         <h1 class="bruh">2023 Artistic Swimming Australia Open</h1>
         <div class="underline2 bruh"></div>
             <div class="vertrow">
-                <img src="images/piggyback.png">
-                <img src="images/piggyback.png">
-                <img src="images/piggyback.png">
+                <img src="images/piggyback.png" alt="Two club members doing a piggybank">
+                <img src="images/piggyback.png" alt="Two club members doing a piggybank">
+                <img src="images/piggyback.png" alt="Two club members doing a piggybank">
             </div>
             <div class="vertrow">
-                <img src="images/standingauopen.png">
-                <img src="images/standingauopen.png">
+                <img src="images/standingauopen.png" alt="Club members at Australia Open">
+                <img src="images/standingauopen.png" alt="Club members at Australia Open">
             </div>
     </div>
+
+    <div style="height:200px;"></div>
+
+    <?php require_once 'phpcode/footer.php';?>
 
 </body>
-
-<!-- The Footer -->
-<footer style="top:440px;">
-    <div class="content">
-        <!-- Footermain is to be able to display the divs inline-block -->
-        <div class="footermain">
-            <!-- Left Side -->
-            <div class="footerdiv">
-                <h1>Contact Us</h1>
-                <p>
-                    Email: <a style="color:yellow;" href="mailto:20303@lbc.school.nz">20303@lbc.school.nz</a>
-                    <br>Phone: +64 28 421 0088
-                    <br>Address: 120 Deep Creek Road, Torbay
-                </p>     
-                <p style=" left:10px; top:10px;">&copy; 2023, All images are free for use </p>
-            </div>
-            <!-- Right Side -->
-            <div  class="footerdiv2">
-                <h1>Follow Us</h1>
-                    <a href="https://learncoach.com/?src=9blke5ApNmlb&gclid=EAIaIQobChMI9s3s6ajdgAMVbByDAx3VJwa1EAAYASAAEgJg3fD_BwE"> <img src="images/instagram.png"></a>
-                    <a href="https://www.khanacademy.org/"> <img src="images/facebook.png"></a>
-            </div>
-        </div>
-    </div>
-</footer>
+</html>
