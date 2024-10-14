@@ -1,0 +1,239 @@
+2024-09-27T00:40:04.288889Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-09-27T00:40:04.289983Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-09-27T00:40:04.291329Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2024-09-27T00:40:04.291685Z 0 [Note] D:\usbwebserver/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 12156 ...
+2024-09-27T00:40:04.302310Z 0 [ERROR] Error message file 'D:\usbwebserver\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2024-09-27T00:40:05.638454Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-09-27T00:40:05.638844Z 0 [Note] InnoDB: Uses event mutexes
+2024-09-27T00:40:05.639081Z 0 [Note] InnoDB: Memory barrier is not used
+2024-09-27T00:40:05.639354Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-09-27T00:40:05.640105Z 0 [Note] InnoDB: Number of pools: 1
+2024-09-27T00:40:05.640493Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-09-27T00:40:05.644487Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-09-27T00:40:05.652243Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-09-27T00:40:07.148966Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-09-27T00:40:07.149040Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-09-27T00:40:07.149654Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2024-09-27T00:40:07.149675Z 0 [Note] D:\usbwebserver/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 9204 ...
+2024-09-27T00:40:07.150744Z 0 [ERROR] Error message file 'D:\usbwebserver\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2024-09-27T00:40:09.626311Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-09-27T00:40:09.626666Z 0 [Note] InnoDB: Uses event mutexes
+2024-09-27T00:40:09.626878Z 0 [Note] InnoDB: Memory barrier is not used
+2024-09-27T00:40:09.627115Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-09-27T00:40:09.627675Z 0 [Note] InnoDB: Number of pools: 1
+2024-09-27T00:40:09.628026Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-09-27T00:40:09.630896Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-09-27T00:40:09.650561Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-09-27T00:40:09.651085Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-09-27T00:40:09.655413Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1271358
+2024-09-27T00:40:09.655787Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1271367
+2024-09-27T00:40:09.656128Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-09-27T00:40:09.656389Z 0 [Note] InnoDB: Starting crash recovery.
+2024-09-27T00:40:09.666898Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2024-09-27T00:40:09.667378Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2024-09-27T00:40:09.667756Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2024-09-27T00:40:09.996497Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2024-09-27T00:40:09.996862Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2024-09-27T00:40:09.997218Z 0 [ERROR] Failed to initialize builtin plugins.
+2024-09-27T00:40:09.997510Z 0 [ERROR] Aborting
+
+2024-09-27T00:40:09.997704Z 0 [Note] Binlog end
+2024-09-27T00:40:09.997959Z 0 [Note] Shutting down plugin 'CSV'
+2024-09-27T00:40:09.998409Z 0 [Note] 
+2024-09-27T00:40:12.567775Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-09-27T00:40:12.569143Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-09-27T00:40:12.572108Z 0 [Note] InnoDB: Setting file 'D:\usbwebserver\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-09-27T00:43:40.144351Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-09-27T00:43:40.144444Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-09-27T00:43:40.145058Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2024-09-27T00:43:40.145082Z 0 [Note] D:\usbwebserver/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 1552 ...
+2024-09-27T00:43:40.156381Z 0 [ERROR] Error message file 'D:\usbwebserver\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2024-09-27T00:43:40.214599Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-09-27T00:43:40.214964Z 0 [Note] InnoDB: Uses event mutexes
+2024-09-27T00:43:40.215178Z 0 [Note] InnoDB: Memory barrier is not used
+2024-09-27T00:43:40.215420Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-09-27T00:43:40.216115Z 0 [Note] InnoDB: Number of pools: 1
+2024-09-27T00:43:40.216473Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-09-27T00:43:40.219567Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-09-27T00:43:40.226505Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-09-27T00:43:40.402880Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-09-27T00:43:40.409778Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1271395
+2024-09-27T00:43:40.410121Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1271404
+2024-09-27T00:43:40.410496Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-09-27T00:43:40.410812Z 0 [Note] InnoDB: Starting crash recovery.
+2024-09-27T00:43:44.684448Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-09-27T00:43:44.684778Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-09-27T00:43:44.688552Z 0 [Note] InnoDB: Setting file 'D:\usbwebserver\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-09-27T00:43:47.149709Z 0 [Note] InnoDB: File 'D:\usbwebserver\mysql\data\ibtmp1' size is now 12 MB.
+2024-09-27T00:43:47.181587Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-09-27T00:43:47.181998Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-09-27T00:43:47.182928Z 0 [Note] InnoDB: Waiting for purge to start
+2024-09-27T00:43:47.244493Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7009ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-09-27T00:43:47.244922Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 1271404
+2024-09-27T00:43:47.246230Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-09-27T00:43:47.246288Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\usbwebserver\mysql\data\ib_buffer_pool
+2024-09-27T00:43:48.486576Z 0 [ERROR] InnoDB: Cannot open 'D:\usbwebserver\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2024-09-27T00:43:49.879427Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2024-09-27T00:43:49.897502Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2024-09-27T00:43:49.901041Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2024-09-27T00:43:49.901517Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2024-09-27T00:43:49.901924Z 0 [Warning] 
+2024-09-27T00:43:49.902055Z 0 [Warning] 
+2024-09-27T00:43:56.390998Z 0 [Warning] CA certificate ca.pem is self signed.
+2024-09-27T00:43:56.391487Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2024-09-27T00:43:56.406648Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-09-27T00:43:56.407310Z 0 [Note] IPv6 is available.
+2024-09-27T00:43:56.407765Z 0 [Note]   - '::' resolves to '::';
+2024-09-27T00:43:56.408084Z 0 [Note] Server socket created on IP: '::'.
+2024-09-27T00:43:57.729911Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2024-09-27T00:43:57.872709Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2024-09-27T00:43:57.873069Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2024-09-27T00:43:57.873395Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2024-09-27T00:43:57.873707Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2024-09-27T00:43:57.874067Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2024-09-27T00:43:57.925412Z 0 [Warning] System table 'servers' is expected to be transactional.
+2024-09-27T00:43:57.943531Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-09-27T00:43:57.950945Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-09-27T00:43:57.954828Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-09-27T00:43:57.955736Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2024-09-27T00:43:57.966995Z 0 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-09-27T00:43:57.968023Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2024-09-27T00:43:57.968937Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2024-09-27T00:43:57.969386Z 0 [Note] Failed to start slave threads for channel ''
+2024-09-27T00:43:57.991308Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-09-27T00:43:58.000684Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-09-27T00:43:58.009486Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2024-09-27T00:43:58.057905Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-09-27T00:43:58.067899Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-09-27T00:43:58.166908Z 0 [ERROR] 
+2024-09-27T00:43:58.190298Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2024-09-27T00:43:58.223689Z 0 [ERROR] 
+2024-09-27T00:43:58.231353Z 0 [ERROR] 
+2024-09-27T00:43:58.239907Z 0 [ERROR] 
+2024-09-27T00:43:58.249303Z 0 [ERROR] 
+2024-09-27T00:43:58.257932Z 0 [ERROR] 
+2024-09-27T00:43:58.280066Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-09-27T00:43:58.289426Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-09-27T00:43:58.317145Z 0 [ERROR] 
+2024-09-27T00:43:58.325596Z 0 [ERROR] 
+2024-09-27T00:43:58.334903Z 0 [ERROR] 
+2024-09-27T00:43:58.353056Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-09-27T00:43:58.361715Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-09-27T00:43:58.388719Z 0 [ERROR] 
+2024-09-27T00:43:58.388929Z 0 [ERROR] 
+2024-09-27T00:43:58.389119Z 0 [ERROR] 
+2024-09-27T00:43:58.389305Z 0 [ERROR] 
+2024-09-27T00:43:58.389496Z 0 [ERROR] 
+2024-09-27T00:43:58.389683Z 0 [ERROR] 
+2024-09-27T00:43:58.389872Z 0 [ERROR] 
+2024-09-27T00:43:58.390058Z 0 [ERROR] 
+2024-09-27T00:43:58.390244Z 0 [ERROR] 
+2024-09-27T00:43:58.396666Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-09-27T00:43:59.696965Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2024-09-27T00:44:06.208799Z 0 [ERROR] 
+2024-09-27T00:44:06.209008Z 0 [ERROR] 
+2024-09-27T00:44:06.209217Z 0 [ERROR] 
+2024-09-27T00:44:06.209406Z 0 [ERROR] 
+2024-09-27T00:44:06.209602Z 0 [ERROR] 
+2024-09-27T00:44:06.209806Z 0 [ERROR] 
+2024-09-27T00:44:06.209996Z 0 [ERROR] 
+2024-09-27T00:44:06.210184Z 0 [ERROR] 
+2024-09-27T00:44:06.210373Z 0 [ERROR] 
+2024-09-27T00:44:06.210561Z 0 [ERROR] 
+2024-09-27T00:44:06.210750Z 0 [ERROR] 
+2024-09-27T00:44:06.210937Z 0 [ERROR] 
+2024-09-27T00:44:06.211131Z 0 [ERROR] 
+2024-09-27T00:44:06.211329Z 0 [ERROR] 
+2024-09-27T00:44:06.211516Z 0 [ERROR] 
+2024-09-27T00:44:06.211851Z 0 [ERROR] 
+2024-09-27T00:44:06.212150Z 0 [ERROR] 
+2024-09-27T00:44:06.212364Z 0 [ERROR] 
+2024-09-27T00:44:06.212565Z 0 [ERROR] 
+2024-09-27T00:44:06.212749Z 0 [ERROR] 
+2024-09-27T00:44:06.212941Z 0 [ERROR] 
+2024-09-27T00:44:06.213132Z 0 [ERROR] 
+2024-09-27T00:44:06.213315Z 0 [ERROR] 
+2024-09-27T00:44:06.213501Z 0 [ERROR] 
+2024-09-27T00:44:06.213681Z 0 [ERROR] 
+2024-09-27T00:44:06.213865Z 0 [ERROR] 
+2024-09-27T00:44:06.214114Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2024-09-27T00:44:06.214618Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2024-09-27T00:44:06.232841Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2024-09-27T00:44:06.233462Z 0 [Note] 
+2024-09-27T00:44:56.294333Z 2 [Note] 
+2024-09-27T00:45:06.840482Z 3 [Note] 
+2024-09-27T00:45:31.993783Z 4 [Note] 
+2024-09-27T00:45:53.109140Z 5 [Note] 
+2024-09-27T00:49:04.134331Z 20 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T00:49:04.134704Z 20 [ERROR] InnoDB: Fetch of persistent statistics requested for table `synchroclub`.`classes` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-09-27T00:49:04.149432Z 20 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T00:49:04.149752Z 20 [ERROR] InnoDB: Fetch of persistent statistics requested for table `synchroclub`.`logins` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-09-27T00:49:04.163635Z 20 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T00:49:04.163960Z 20 [ERROR] InnoDB: Fetch of persistent statistics requested for table `synchroclub`.`user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-09-27T00:51:17.231444Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4411ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-09-27T00:53:27.937810Z 62 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T00:53:29.249164Z 62 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T00:53:29.250884Z 62 [ERROR] InnoDB: Fetch of persistent statistics requested for table `synchroclub`.`#sql-610_3e` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-09-27T00:53:35.687267Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6453ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-09-27T00:53:39.595042Z 62 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T00:53:39.595387Z 62 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T00:53:40.921357Z 62 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T00:53:40.922304Z 62 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T00:53:40.933916Z 62 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T00:53:40.959119Z 62 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T00:53:40.959534Z 62 [ERROR] InnoDB: Fetch of persistent statistics requested for table `synchroclub`.`user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-09-27T00:53:50.928991Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7638ms. The settings might not be optimal. (flushed=24 and evicted=0, during the time.)
+2024-09-27T00:55:20.268801Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5485ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-09-27T01:00:50.885977Z 126 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:00:53.480998Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4569ms. The settings might not be optimal. (flushed=17 and evicted=0, during the time.)
+2024-09-27T01:00:53.495220Z 126 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:00:53.496086Z 126 [ERROR] InnoDB: Fetch of persistent statistics requested for table `synchroclub`.`#sql-610_7e` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-09-27T01:00:54.840622Z 126 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:00:54.840996Z 126 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:01:00.050677Z 126 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:01:00.050993Z 126 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:01:03.949002Z 126 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:01:06.523608Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5480ms. The settings might not be optimal. (flushed=3 and evicted=0, during the time.)
+2024-09-27T01:01:13.005899Z 126 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:01:13.006263Z 126 [ERROR] InnoDB: Fetch of persistent statistics requested for table `synchroclub`.`logins` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-09-27T01:01:22.435060Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6141ms. The settings might not be optimal. (flushed=7 and evicted=0, during the time.)
+2024-09-27T01:01:31.432303Z 150 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:01:34.006099Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4544ms. The settings might not be optimal. (flushed=17 and evicted=0, during the time.)
+2024-09-27T01:01:34.021788Z 150 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:01:34.022098Z 150 [ERROR] InnoDB: Fetch of persistent statistics requested for table `synchroclub`.`#sql-610_96` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-09-27T01:01:35.373715Z 150 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:01:35.375441Z 150 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:01:39.286976Z 150 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:01:39.288687Z 150 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:01:41.858495Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4496ms. The settings might not be optimal. (flushed=12 and evicted=0, during the time.)
+2024-09-27T01:01:43.165987Z 150 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:01:48.310879Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4131ms. The settings might not be optimal. (flushed=8 and evicted=0, during the time.)
+2024-09-27T01:01:52.204419Z 150 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:01:52.204772Z 150 [ERROR] InnoDB: Fetch of persistent statistics requested for table `synchroclub`.`logins` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-09-27T01:01:58.733496Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4354ms. The settings might not be optimal. (flushed=9 and evicted=0, during the time.)
+2024-09-27T01:07:06.493499Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7044ms. The settings might not be optimal. (flushed=3 and evicted=0, during the time.)
+2024-09-27T01:09:50.860965Z 230 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:09:50.861479Z 230 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:09:57.278412Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4721ms. The settings might not be optimal. (flushed=14 and evicted=0, during the time.)
+2024-09-27T01:10:01.168696Z 230 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:10:01.169019Z 230 [Warning] InnoDB: Recalculation of persistent statistics requested for table `synchroclub`.`user` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-09-27T01:10:03.756254Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4459ms. The settings might not be optimal. (flushed=2 and evicted=0, during the time.)
+2024-09-27T01:10:03.757912Z 230 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:10:03.760255Z 230 [ERROR] InnoDB: Fetch of persistent statistics requested for table `synchroclub`.`user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-09-27T01:10:27.325773Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8663ms. The settings might not be optimal. (flushed=8 and evicted=0, during the time.)
+2024-09-27T01:11:21.904543Z 254 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:11:21.904983Z 254 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:11:23.182744Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4450ms. The settings might not be optimal. (flushed=9 and evicted=0, during the time.)
+2024-09-27T01:11:30.941394Z 254 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:11:30.943129Z 254 [Warning] InnoDB: Recalculation of persistent statistics requested for table `synchroclub`.`user` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-09-27T01:11:37.369288Z 254 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-09-27T01:11:37.372683Z 254 [ERROR] InnoDB: Fetch of persistent statistics requested for table `synchroclub`.`user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-09-27T01:11:39.957891Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6435ms. The settings might not be optimal. (flushed=1 and evicted=0, during the time.)
+2024-09-27T01:11:48.694964Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5125ms. The settings might not be optimal. (flushed=8 and evicted=0, during the time.)
