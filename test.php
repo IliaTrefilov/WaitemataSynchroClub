@@ -6,9 +6,8 @@
     <link rel="icon" href="images/logo.png" type="image/logo.png">
     <link rel="stylesheet" href="synchro.css">
     <!-- Title is what the name of the tab is called when you have it open. I have made each page's title start with the pages name -->
-    <title>Club Info | WAITEMATA SYNCHRO CLUB</title>
+    <title>Home | WAITEMATA SYNCHRO CLUB</title>
 </head>
-
 
 <body>
     <!-- Links a phpfile that includes the navigation bar -->

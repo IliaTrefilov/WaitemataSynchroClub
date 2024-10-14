@@ -10,6 +10,10 @@ body{
     background-color: #cff3f541;
 }
 
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
 /*#region Button */
     h2{
         width:275px;
@@ -258,9 +262,10 @@ body{
         left:100px;
         top:120px;
     }
+
     #resultsimg{
         position:relative;
-        width:800px;
+        width:755px;
         height:500px;
         left:1000px;
     }

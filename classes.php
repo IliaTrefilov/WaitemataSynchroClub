@@ -68,7 +68,8 @@ require_once 'phpcode/VMC/signup_view.php';
                     <div class="box" id="box1">
                         <h1> Training Sessions </h1>
                         <p> Group 1 is for younger kids (5-15)  and happens from 5pm - 6pm.
-                        Group 2 is for older kids/adults (16-100) and happens from 6:15pm - 7:30pm. Please pick only the days for the group you are interested in. It is recommended you come on all days but its is fine if you skip one or two days a week. <br>
+                        <br>Group 2 is for older kids/adults (16-100) and happens from 6:15pm - 7:30pm. 
+                        <br>Please pick only the days for the group you are interested in. It is recommended you come on all days but its is fine if you skip one or two days a week. <br>
                     Message us if you have any questions!</p>
                     </div>
                 <?php join_sessions();
@@ -85,6 +86,8 @@ require_once 'phpcode/VMC/signup_view.php';
         
 
     </div>
+
+    <div style="height:150px;"></div>
 
     <?php require_once 'phpcode/footer.php';?>
 

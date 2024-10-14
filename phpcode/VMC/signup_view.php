@@ -7,16 +7,16 @@ function signup_inputs ()
 {
     //Checks if FIRSTNAME was entered and if yes then it keeps the value
     if (isset($_SESSION["signup_data"]['firstname'])) {
-        echo '<h3>First Name</h3> <input type="text" name="firstname" placeholder="First Name" maxlength="50" value="' . $_SESSION["signup_data"]["firstname"] . '">';
+        echo '<h3>First Name</h3> <input type="text" name="firstname" placeholder="First Name" maxlength="50" value="' . $_SESSION["signup_data"]["firstname"] . '" autocomplete="off">';
     } else {
-        echo '<h3>First Name</h3> <input type="text" name="firstname" placeholder="First Name" maxlength="50">';
+        echo '<h3>First Name</h3> <input type="text" name="firstname" placeholder="First Name" maxlength="50" autocomplete="off">';
     }
 
     //Checks if LASTNAME was entered and if yes then it keeps that value
     if (isset($_SESSION["signup_data"]['lastname'])) {
-        echo '<h3>Last Name</h3> <input type="text" name="lastname" placeholder="Last Name" maxlength="70" value="' . $_SESSION["signup_data"]["lastname"] . '">';
+        echo '<h3>Last Name</h3> <input type="text" name="lastname" placeholder="Last Name" maxlength="70" value="' . $_SESSION["signup_data"]["lastname"] . '" autocomplete="off">';
     } else {
-        echo '<h3>Last Name</h3> <input type="text" name="lastname" placeholder="Last Name" maxlength="70">';
+        echo '<h3>Last Name</h3> <input type="text" name="lastname" placeholder="Last Name" maxlength="70" autocomplete="off">';
     }
 
     //Checks if EMAIL was entered and if yes AND it doesn't have any errors from signup_controller.php that were asigned in signup.php then it keeps that value

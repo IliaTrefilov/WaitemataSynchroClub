@@ -39,6 +39,8 @@
         </div>
     </div>
     
+    <div style="height:250px;"></div>
+
     <?php require_once 'phpcode/footer.php';?>
 
 </body>

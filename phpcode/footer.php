@@ -1,5 +1,5 @@
 <!-- The Footer -->
-<footer style="top:240px;">
+<footer>
     <div class="content">
         <!-- Footermain is to be able to display the divs inline-block -->
         <div class="footermain">

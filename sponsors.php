@@ -37,7 +37,7 @@
 
         <div class="bruh">
             <div class="photographer">
-                <h1>Photographs</h1>
+                <h1>Photographers</h1>
                 <div class="line"></div> 
                 <p>Nikolay Trefilov<br>Andrew Skiff<br>Heather Black</p>
             </div>
@@ -51,12 +51,14 @@
         </div>
         <div class="bruh">
             <div class="misc">
-                <h1>Club Stuff</h1>
+                <h1>Credits</h1>
                 <div class="line" style="width:400px;"></div> 
                 <p>Ilia Trefilov: for Making the Website<br>Nicolas Peillex: for Making the Logo<br>You: for Helping Us Out</p>
             </div>
         </div>
     </div>
+
+    <div style="height:270px;"></div>
 
     <?php require_once 'phpcode/footer.php';?>
 

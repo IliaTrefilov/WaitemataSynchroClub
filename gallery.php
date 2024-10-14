@@ -44,7 +44,7 @@
             </div>
     </div>
 
-    <div style="height:200px;"></div>
+    <div style="height:400px;"></div>
 
     <?php require_once 'phpcode/footer.php';?>
 
